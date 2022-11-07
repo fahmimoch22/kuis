@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1517154421773-0529f29ea451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2VvdWx8ZW58MHx8MHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+div {
+    border-radius: 2px;
+    background-color: hsl(0, 100%, 50%);
+    padding: 10px;
+}
+
+#tampilantabel {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tampilantabel td, #tampilantabel th {
+    border: 1px solid #F5EFE6;
+    padding: 8px;
+}
+
+#tampilantabel tr:nth-child(even) {background-color: #c4583a;}
+#tampilantabel tr:hover {background-color: #dfd;}
+
+#tampilantabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ff0000;
+    color: black;
+}
+
+input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid #ccd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=password]:focus {
+    background-color: rgb(255, 255, 255);
+}
+input[type=submit],input[type=button], input[type=reset] {
+    background-color: #ff1b1b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    float:center;
+}
+
+input[type=submit]:hover {
+    background-color: #DFD3C3;
+}
+img {
+    border-radius: 80%;
+}
